@@ -1,0 +1,6 @@
+ main > section.products {
+    background-color: var(--bg-default);
+    height: 100vh;
+    padding-top: 3.5rem;
+    display: flex;
+}
