@@ -1,0 +1,18 @@
+:root {
+    --primary: #011f4b;
+    --secondary: #03396c;
+    --tertiary: #005b96;
+    --quartenary: #6497b1;
+    --accent: #b3cde0;
+    --bg-default: rgb(31, 31, 31);
+    --text-color: rgb(228, 228, 228);
+  }
+
+  *, html, body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+  }
+  
