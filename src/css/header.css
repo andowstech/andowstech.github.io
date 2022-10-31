@@ -37,3 +37,9 @@ header > .sections-titles > li > a {
     color: var(--text-color);
     padding: 0 0.5rem;
 }
+
+@media (max-width: 1024px) {
+    header > .sections-titles {
+        display: none;
+    }
+}

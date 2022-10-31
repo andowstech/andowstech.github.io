@@ -28,3 +28,21 @@ main > section.home > .left > button {
     font-size: 1.1rem;
     cursor: pointer;
  }
+
+ @media (max-width: 1024px) {
+    main > section.home > .right img { 
+        width: 20rem;
+     }
+    
+ }
+
+ @media (max-width: 680px) {
+    main > section.home > .right { 
+        display: none;
+     }
+     main > section.home > .left > h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+ }
